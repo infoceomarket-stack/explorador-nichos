@@ -127,7 +127,7 @@ footer a { color: var(--text-muted); text-decoration: none; }
       <button class="btn-search" id="btnSearch" onclick="buscarNichos()">Explorar nichos</button>
     </div>
     <div class="filters">
-      <button class="filter-tag active" data-f="">Populares</button>
+      <button class="filter-tag" data-f="">Populares</button>
       <button class="filter-tag" data-f="animales y mascotas">Animales</button>
       <button class="filter-tag" data-f="familia y maternidad">Familia</button>
       <button class="filter-tag" data-f="humor y memes">Humor</button>
@@ -242,7 +242,7 @@ function showDetail(n, cardEl) {
 }
 function showStatus(msg) { document.getElementById('statusMsg').textContent = msg; document.getElementById('statusWrap').style.display = 'block'; }
 function hideStatus() { document.getElementById('statusWrap').style.display = 'none'; }
-window.addEventListener('load', () => buscarNichos());
+function hideStatus() { document.getElementById('statusWrap').style.display = 'none'; }
 </script>
 </body>
 </html>
